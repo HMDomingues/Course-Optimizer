@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "courseoptimizer"
+name = "tracktrajectoryoptimizer"
 version = "0.1.0"
-description = "Vehicle Dependent Course Optimization"
+description = "Vehicle Dependent Trajectory Optimization of a Continuous Track"
 authors = ["Hugo <hugomdomingues@gmail.com>"]
 
 [tool.poetry.dependencies]
@@ -10,6 +10,7 @@ numpy = "^1.22.2"
 matplotlib = "^3.5.1"
 scipy = "^1.8.0"
 openmdao = "^3.16.0"
+dymos = "^1.4.0"
 
 [tool.poetry.dev-dependencies]
 

@@ -26,6 +26,25 @@ optional = false
 python-versions = ">=3.6"
 
 [[package]]
+name = "dymos"
+version = "1.4.0"
+description = "Open-Source Optimization of Dynamic Multidisciplinary Systems"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+numpy = ">=1.14.1"
+openmdao = ">=3.13.0"
+scipy = ">=1.0.0"
+
+[package.extras]
+all = ["ipython", "ipython", "jupyter", "jupyter-book", "matplotlib", "nbconvert", "notebook", "notebook", "numpydoc (>=0.9.1)", "numpydoc (>=1.1)", "pep8", "redbaron", "tabulate", "tabulate", "testflo (>=1.3.6)"]
+docs = ["jupyter", "jupyter-book", "nbconvert", "notebook", "ipython", "numpydoc (>=0.9.1)", "redbaron", "tabulate"]
+notebooks = ["notebook", "tabulate", "ipython"]
+test = ["pep8", "testflo (>=1.3.6)", "matplotlib", "numpydoc (>=1.1)"]
+
+[[package]]
 name = "fonttools"
 version = "4.29.1"
 description = "Tools to manipulate font files"
@@ -257,7 +276,7 @@ socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10,<3.11"
-content-hash = "3daf009f0f102ed504185803402b1db8e3a85d8a90d5d58f77a2a42968e5479c"
+content-hash = "1cddb3113b0a9685033bee8290a23794505fa310a2021aebd7e5478e74592a55"
 
 [metadata.files]
 certifi = [
@@ -271,6 +290,9 @@ charset-normalizer = [
 cycler = [
     {file = "cycler-0.11.0-py3-none-any.whl", hash = "sha256:3a27e95f763a428a739d2add979fa7494c912a32c17c4c38c4d5f082cad165a3"},
     {file = "cycler-0.11.0.tar.gz", hash = "sha256:9c87405839a19696e837b3b818fed3f5f69f16f1eec1a1ad77e043dcea9c772f"},
+]
+dymos = [
+    {file = "dymos-1.4.0.tar.gz", hash = "sha256:ebda14a3f857e4fc2ed2a7d5c7c88be1edd8286b1ca92b7288ccf70b83930c2b"},
 ]
 fonttools = [
     {file = "fonttools-4.29.1-py3-none-any.whl", hash = "sha256:1933415e0fbdf068815cb1baaa1f159e17830215f7e8624e5731122761627557"},
