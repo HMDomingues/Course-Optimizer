@@ -1,2 +1,2 @@
-# TrackTrajectoryOptimizer
-  Vehicle Dependent Trajectory Optimization on a Track
+# LapTrajectoryOptimizer
+  Vehicle Dependent Trajectory Optimization of a Continuous Track
