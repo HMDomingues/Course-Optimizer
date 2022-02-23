@@ -1,2 +1,2 @@
-# Course-Optimizer
-  Vehicle Dependent Course Optimization
+# TrackTrajectoryOptimizer
+  Vehicle Dependent Trajectory Optimization of a Continuous Track
